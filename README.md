@@ -1,3 +1,9 @@
+# Screenshot Output
+
+[screen-1](https://github.com/deeps1104/itaxeasy/blob/master/screenshot/screen-1.PNG?raw=true)
+[screen-2](https://github.com/deeps1104/itaxeasy/blob/master/screenshot/screen-2.PNG?raw=true)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
