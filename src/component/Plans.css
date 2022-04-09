@@ -1,0 +1,65 @@
+.mainSection{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.mainSection .planMainSection{
+    margin-left: 15px;
+}
+
+
+.planMainSection{
+    width: 220px;
+    display:inline-flex;
+    flex-direction: column;
+    
+}
+
+.uppersectionhead{
+    background-color: rgba(58, 110, 246, 80%);
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.uppersectionhead h1{
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
+
+.lowersectionbody{
+padding: 5px 20px 7px 20px;
+border: 0.5px solid #A39595;
+text-align: center;
+border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 230px;
+}
+
+.lowersectionbody div{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.lowersectionbody div img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.lowersectionbody div p{
+    font-weight: 700;
+    text-align: left;
+    font-size: 13px;
+}
+
+.lowersectionbody div p a:hover{
+    text-decoration: underline;
+    color: #A39595;
+}

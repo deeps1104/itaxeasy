@@ -1,0 +1,59 @@
+.productMain{
+    padding: 40px 90px;
+}
+
+.productMainSection{
+    /* border: 1px solid; */
+    padding: 20px 20px;
+}
+
+.productMainSection h1{
+    font-size: 28px;
+    color: #3C3131;
+    font-weight: bold;
+}
+
+.productMainSection .card-1, .card-2, .card-3, .card-4{
+    border: 1px solid #A39595;
+    width: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    height: 170px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 8px 8px;
+    background-color: #fff;
+}
+
+.productMainSection .card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover{
+    cursor: pointer;
+}
+
+.productMainSection .card-1::after, .card-2::after, .card-3::after, .card-4::after{
+    content: "";
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.486);
+    z-index: -9999;
+    border-radius: 8px 8px;
+}
+
+.productMainSection .card-1 img, .card-2 img, .card-3 img, .card-4 img{
+    width: 40px;
+    height: 40px; 
+}
+
+.productMainSection .card-1 h4, .card-2 h4, .card-3 h4 , .card-4 h4{
+    text-align: left;
+    font-weight: 700;
+    margin-top: 15px;
+    z-index: 9999;
+}
+
+.productMainSection .card-1 p, .card-2 p, .card-3 p, .card-4 p{
+    text-align: left;
+    color: #373131;
+    font-size: 16px;
+}

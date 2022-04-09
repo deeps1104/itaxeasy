@@ -1,0 +1,53 @@
+.navbarSection{
+    width: 100%;
+    height: 70px;
+    
+    line-height: 70px;
+    background-color: #fff;
+   
+}
+
+.navbarSection .navbarLogosec{
+    float: left;
+    padding: 10px 60px;
+}
+
+.navbarSection .navbarLogosec img{
+    width: 55px;
+    height: 50px;
+}
+
+.navbarSection .navbarMenusec{
+    float: right;
+}
+
+.navbarSection .navbarMenusec ul{
+
+}
+
+.navbarSection .navbarMenusec ul li{
+    float: left;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+.navbarSection .navbarMenusec ul li:hover{
+    border-bottom-width: 2px;
+    border-bottom-color: #3A6EF6;
+    transition: all .2s;
+}
+
+.navbarSection .navbarMenusec ul li span{
+    color: #3A6EF6;
+}
+
+.navbarSection .navbarMenusec ul li span:hover{
+    background-color: #3A6EF6;
+    color: #fff;
+    transition: all .5s;
+}
+
+#signupbtn{
+    border-bottom-width: 0;
+    border-bottom-color: #fff;
+}
